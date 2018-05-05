@@ -62,6 +62,9 @@ https://www.quora.com/Why-does-Android-Studio-take-up-more-memory-RAM-in-a-Windo
 
 I was using a MAC during this time, but definitely there is a lot of unecessary things going on in the background that can be disabled and closed. 
 
+Memory Leaks and troubleshooting those in Android Studio
+
+https://android.jlelse.eu/memory-leak-patterns-in-android-4741a7fcb570
 
 
 
