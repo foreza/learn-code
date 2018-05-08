@@ -64,6 +64,11 @@ UI strings - there is a strings.xml resource file that is used to specify all UI
 
 Chain - horizontal chain (only for the UI layout) - it's a bidirectional constraint between two or more viewed. (sort of like a grouping) Can be used to neaten up the view. However, in the end you are just messing with the XML.
 
+
+To include a JAR file, you can drag the JAR file into the /lib folder of the project, and then use Android Studio to unwrap it.
+https://stackoverflow.com/questions/25660166/how-to-add-a-jar-in-external-libraries-in-android-studio 
+
+
 What is an Intent? 
 
 It is an object that provides runtime binding between seperate components, like 2 activities.
@@ -125,6 +130,9 @@ https://android.jlelse.eu/memory-leak-patterns-in-android-4741a7fcb570
 ### Web
 
 
+
+
+
 ### Other topics (unsorted)
 
 *What is Scala?*
@@ -137,9 +145,22 @@ Scala is object oriented, and derives a lot of it's syntax from C. However, it h
 You can also do neat things like operater overloading, optional params, etc. One feature that isn't available however is 'checked exceptions'
 
 
+Private vs protected vs public
+
+https://stackoverflow.com/questions/215497/in-java-difference-between-package-private-public-protected-and-private
+
+
+
+
 ## Command Line
 
-grep 
+
+grep // Needs more information  
+
+
+
+
+
 
 ## Challenges
 Doing challenges to better myself! Here are my commented solutions / work in progress.
