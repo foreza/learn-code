@@ -27,6 +27,13 @@ In other words, if you want to have a variable that defines more than just a tru
 
 https://stackoverflow.com/questions/4709175/what-are-enums-and-why-are-they-useful
 
+*What is a strongly typed language*
+
+It is a language in where each type of data is predefined as part of the programming language. 
+It ensures that anything that is defined is a known type, and enforces certain operations with certain data types.
+Advantage - rules, and certain consistency. Disadvantage - limits creativity, can't invent data types not anticipated by thw ;
+
+*What is ...*
 
 ## Resources
 
@@ -38,6 +45,53 @@ http://jamesonquave.com/blog/making-a-post-request-in-swift/
 
 
 ### Android
+
+
+MainActivity is typically the 'entry point' for the application. When the app is built/run, the system then launches an instance of this Activity.
+
+The activity XML defines the UI layout for the particular activity.
+
+The AndroidManifest defines the fundamentals of the app, and also defines each of the components.
+
+build.gradle - one of them for the project, and one of them for the module. 
+Projects might have several modules, but we just need to usually mess with the build.gradle of the module.
+
+The UI of the Android App uses layouts and widgets.
+Layouts = viewgroups
+Widgets = viewobjects
+
+UI strings - there is a strings.xml resource file that is used to specify all UI strings. This allows you to manage all UI strings in one location, and easier to find/update rather than had code strings in layout. 
+
+Chain - horizontal chain (only for the UI layout) - it's a bidirectional constraint between two or more viewed. (sort of like a grouping) Can be used to neaten up the view. However, in the end you are just messing with the XML.
+
+What is an Intent? 
+
+It is an object that provides runtime binding between seperate components, like 2 activities.
+It represents an 'intent to do something'. Intents can be used for many things. 
+
+
+What is AppCompat? 
+
+https://stackoverflow.com/questions/35553306/what-is-appcompat
+
+It is a set of support libraries that can allow newer apps to work on older versions of Android. If you target a min and a max, it will help ensure that newer features that might be supported in a newer api is still functional on an older phone. 
+
+
+What is Kotlin?
+
+https://www.infoworld.com/article/3224868/java/what-is-kotlin-the-java-alternative-explained.html
+
+Kotlin is a 'pragmatic' programming language. It combines OOP and functional programming. 
+It's a 'strongly typed' language - meaning that each type of the data is predefined as part of the language. 
+It's also being developed for JavaScript (which is known as a weakly typed language)
+At a high level, it could be thought of as a streamlined version of Java that deals away with mindless repetition when you instantiate.
+It was designed to eliinate null pointer references and better handle null values. (Similar to Obj-C / Swift)
+?. can also be used as a safe call operator, combined with 'let'
+Kotlin was only recently supported by Google (Google IO 2017) and interoperates with Java / shares tooling. 
+There is 0 overhead for calling back and forth. Very few instances will result in interoperability issues. 
+Kotlin is safer / more concise than Java code, they can both co-exist, and can be used to expand existing Java apps. 
+The only instance to choose Java over Kotlin would be for complete novice programmers (like myself!)
+Converting from one to the other is straight copy + paste, however. The learning curve is very low (few hours)
 
 
 
@@ -70,6 +124,17 @@ https://android.jlelse.eu/memory-leak-patterns-in-android-4741a7fcb570
 
 ### Web
 
+
+### Other topics (unsorted)
+
+*What is Scala?*
+
+https://en.wikipedia.org/wiki/Scala_(programming_language)
+
+Scala is a general programming language providing support for functional programming and a strong static type system.
+A lot of the design decisions aimed at addressing some criticisms that Java faced. The source code of Scala can be compiled to Java bytecode so you can use the Java Virtual Machine (JVM). 
+Scala is object oriented, and derives a lot of it's syntax from C. However, it has features of many other progamming languages. 
+You can also do neat things like operater overloading, optional params, etc. One feature that isn't available however is 'checked exceptions'
 
 
 ## Command Line
