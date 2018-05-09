@@ -1,0 +1,7 @@
+
+
+Semaphore / Mutex
+
+It is an abstract data type that can control access to resources.
+A semaphore can be used to restrict up to a certain number (say, 4 threads)
+A mutex is a semaphore that only allows 1 thread at a time to access said resource.
