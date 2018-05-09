@@ -19,6 +19,12 @@ The dream is the creation of a knowledge base.
 How to do a POST request in Swift:
 http://jamesonquave.com/blog/making-a-post-request-in-swift/ 
 
+Obfuscation with Obfuscator / similar things
+
+https://medium.com/theappspace/increase-the-security-of-your-ios-app-by-obfuscating-sensitive-strings-swift-c915896711e6
+The concept is the same - you have variables, api keys, etc that should be kept secret. But anyone with a cracked phone who can view the debugger on your application can probably get at the information. 
+This particular implementation obfuscates your information with some password that only you would know, essentially an encryption key. 
+
 
 ### Android
 
@@ -101,6 +107,25 @@ Memory Leaks and troubleshooting those in Android Studio
 
 https://android.jlelse.eu/memory-leak-patterns-in-android-4741a7fcb570
 
+
+Obfuscation with Proguard
+
+https://riis.com/blog/android-obfuscation-proguard-dexguard/ 
+http://www.brightdevelopers.com/reverse-engineer-android-apk/
+
+This is typically used to prevent your average dev from decompiling and understanding the true nature of your Android Code. 
+
+Smali / Dex files
+
+https://www.quora.com/What-is-smali-in-Android
+
+Smali is the in-between and more human readable code that an Android programmer can use to better understand an app that might be decompiled. 
+
+Typical android app is written in Java - then eclipse/Android studio convert the java source into dalvic executables (.dex). 
+Android has a dalvikvm which then run the executables (which you see as the application). 
+So to do any major modifications given just dex files, you need a way to read them. Smali is a format that a .dex file can be converted to to make this a bit more human readable, and is more of an assembly level language. It cannot be converted back to java source.
+
+Fun fact - smali / baksmali mean 'assembler' and 'disassembler' in Icelandic. 
 
 
 ### Web
