@@ -25,6 +25,29 @@ https://medium.com/theappspace/increase-the-security-of-your-ios-app-by-obfuscat
 The concept is the same - you have variables, api keys, etc that should be kept secret. But anyone with a cracked phone who can view the debugger on your application can probably get at the information. 
 This particular implementation obfuscates your information with some password that only you would know, essentially an encryption key. 
 
+What is UIKit:
+
+https://developer.apple.com/documentation/uikit
+UIKit is a framework required by many IOS developers as it provides the window / view architecture to actually do implementation.
+
+What is Fabric / Crashalytics:
+
+https://docs.fabric.io/apple/fabric/overview.html
+Fabric is a mobile platform which provides tools in modular kits to aid with development and troubleshooting. Crashalytics is one of the kits provided which is a good tool for pinpointing / troubleshooting. 
+
+Manipulating things with the storyboard is both easy but also not intuitive. Need to know more! (TODO)
+
+If you ever see App Transport Security / insecure issues:
+
+App Transport Security has blocked a cleartext HTTP (http://) resource load since it is insecure. Temporary exceptions can be configured via your app's Info.plist file.
+
+https://stackoverflow.com/questions/31254725/transport-security-has-blocked-a-cleartext-http?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+You have to set the NSAllowsArbitraryLoads key to YES under NSAppTransportSecurity dictionary in your .plist file.
+
+
+View specific stuff:
+
+viewDidLayoutSubviews 
 
 ### Android
 
